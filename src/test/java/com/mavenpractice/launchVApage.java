@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class launchVApage {
+public class launchVApage  {
 	
 	WebDriver driver = new ChromeDriver();
 	@Parameters("url")

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Radio buttons test(failed)">
     <parameter name="url" value="https://virtualagent.hpcloud.hp.com/"/>
     <classes>
-      <class name="com.mavenpractice.launchVApage">
+      <class name="com.mavenpractice.radioButtons">
         <methods>
-          <include name="Vapage" invocation-numbers="0"/>
+          <include name="feedbackhighrating"/>
         </methods>
-      </class> <!-- com.mavenpractice.launchVApage -->
+      </class> <!-- com.mavenpractice.radioButtons -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Radio buttons test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
